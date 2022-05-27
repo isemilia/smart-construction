@@ -1,0 +1,68 @@
+.promo {
+    padding: 38px 0 60px;
+    &__title {
+        max-width: 630px;
+    }
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &-second {
+        margin-top: 30px;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 970px 350px;
+        grid-template-rows: 350px;
+        column-gap: 20px;
+    }
+    .tns-outer {
+        position: relative;
+        .tns-nav {
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            z-index: 10;
+            button {
+                width: 8px; height: 8px;
+                border-radius: 100%;
+                outline: none;
+                border: none;
+                background-color: rgba(0, 0, 0, 0.5);
+                &.tns-nav-active {
+                    background-color: rgba(0, 0, 0, 1);
+                }
+                &:not(:last-child) {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+    &__card {
+        height: 350px;
+        padding: 70px 20px 35px;
+        background: #C1DEEE;
+        &-title {
+            font-size: 32px;
+            line-height: 37px;
+        }
+        &-descr {
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &-link {
+            margin-top: 30px;
+            display: block;
+            font-size: 18px;
+            line-height: 22px;
+            color: #48484A;
+            font-weight: 600;
+            text-decoration: none;
+            &:hover {
+                color: #48484A;
+            }
+        }
+    }
+}
