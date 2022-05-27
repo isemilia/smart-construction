@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Adineue', sans-serif;
+}
+
+.btn {
+    padding: 8px 20px;
+    font-size: 13px;
+    background: #EFEFEF;
+    font-weight: 600;
+    text-decoration: none;
+    color: #48484A;
+    &:hover {
+        color: #48484A;
+    }
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
