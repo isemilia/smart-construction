@@ -1,0 +1,52 @@
+.areas {
+    padding: 100px 0 90px;
+    background: #F7F7F7;
+    &__row {
+        display: flex;
+        justify-content: center;
+    }
+    &__text {
+        width: 260px;
+        margin-right: 130px;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    &__link {
+        display: block;
+        margin-top: 30px;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 600;
+        color: #48484A;
+        text-decoration: none;
+    }
+    &__cards {
+        display: inline-grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-auto-rows: minmax(280px, auto);
+        column-gap: 35px;
+        row-gap: 30px;
+    }
+    &__card {
+        padding: 28px 45px 20px 24px;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px solid #555555;
+        &_gray {
+            background: #b1b1b1af;
+            border: none;
+        }
+        &-title {
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 600;
+        }
+        &-text {
+            margin-top: 30px;
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+}
