@@ -6,6 +6,14 @@
 
 @font-face {
     font-family: "Adineue";
-    src: url("../../fonts/adineueprocyr_boldweb.ttf") format("truetype");
+    src: url("../fonts/adineueprocyr_boldweb.ttf") format("truetype");
     font-weight: 600;
+}
+
+//sf 
+
+@font-face {
+    font-family: "SF UI Display";
+    src: url('../fonts/SF-UI-Display-Regular.ttf') format('truetype');
+    font-weight: 400;
 }

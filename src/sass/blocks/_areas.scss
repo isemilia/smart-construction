@@ -12,6 +12,8 @@
     &__descr {
         font-size: 16px;
         line-height: 30px;
+        font-family: 'SF UI Display', sans-serif;
+        font-weight: 400;
     }
     &__link {
         display: block;
@@ -39,11 +41,13 @@
             border: none;
         }
         &-title {
+            
             font-size: 18px;
             line-height: 25px;
             font-weight: 600;
         }
         &-text {
+            
             margin-top: 30px;
             font-size: 14px;
             line-height: 25px;
