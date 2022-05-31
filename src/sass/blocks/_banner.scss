@@ -1,0 +1,42 @@
+.banner {
+    padding: 60px 0 35px;
+    background: linear-gradient(to top, #EFEFEF 50%, #FFF 50%);
+    &__title {
+        max-width: 830px;
+        font-size: 32px;
+        line-height: 43px;
+        color: #FFFFFF;
+    }
+    &__row {
+        padding: 100px 70px;
+        border-radius: 25px;
+        min-height: 406px;
+        display: grid;
+        align-items: center;
+        background: url('../img/banner.jpg') center center / cover no-repeat;
+    }
+    &__btn {
+        margin-top: 40px;
+        padding: 10px 22px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 180px;
+        background: #EFEFEF;
+        text-decoration: none;
+        &-text {
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 700;
+            color: #48484A;
+        }
+        &-icon {
+            transition: all .5s;
+        }
+        &:hover {
+            .banner__btn-icon {
+                transform: translateX(5px);
+            }
+        }
+    }
+}

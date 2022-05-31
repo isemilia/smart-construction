@@ -1,0 +1,52 @@
+.equipment {
+    padding: 35px 0;
+    background: #EFEFEF;
+    &__title {
+        font-size: 27px; 
+        line-height: 36px;
+    }
+    &__descr {
+        margin-top: 20px;
+        max-width: 740px;
+        font-size: 17px;
+        line-height: 30px;
+        color: #555555;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 380px);
+        grid-auto-rows: 84px;
+        gap: 2px;
+    }
+    &__item {
+        padding: 20px 40px 20px 20px;
+        background: rgb(255, 255, 255);
+        &-text {
+            font-size: 14px;
+            line-height: 25px;
+            color: #555555;
+        }
+    }
+    &__card {
+        padding: 40px 40px 20px 20px;
+        width: 310px;
+        min-height: 305px;
+        background: #C1DEEE;
+        &-title {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &-descr {
+            margin-top: 20px;
+            font-size: 17px;
+            line-height: 30px;
+            color: #555555;
+        }
+    }
+    &__row {
+        margin-top: 30px;
+        display: flex;
+        align-items: start;
+        gap: 50px;
+    }
+}
