@@ -1,0 +1,16 @@
+.collab {
+    background: url('../img/collab.jpg') center center / cover no-repeat;
+    min-height: 595px;
+    color: #FFF;
+    padding: 135px 0 100px;
+    &__title {
+        font-size: 40px;
+        line-height: 53px;
+    }
+    &__text {
+        margin-top: 28px;
+        max-width: 725px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
