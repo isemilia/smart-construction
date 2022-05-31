@@ -46,4 +46,31 @@
             }
         }
     }
+    &__text {
+        margin-top: 70px;
+        font-size: 27px;
+        line-height: 36px;
+        max-width: 860px;
+    }
+    &__models {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 480px);
+        grid-auto-rows: minmax(84px, auto);
+        &-item {
+            display: grid;
+            align-items: center;
+            padding: 18px 20px 22px;
+            width: 100%; height: 100%;
+            border: 1px solid #E8E8E8;
+        }
+        &-title {
+            color: #555555; font-weight: 700;
+            font-size: 14px; line-height: 25px;
+        }
+        &-descr {
+            color: #555555; font-weight: 400;
+            font-size: 14px; line-height: 25px;
+        }
+    }
 }
