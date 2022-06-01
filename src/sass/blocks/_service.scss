@@ -56,3 +56,31 @@
         }
     }
 }
+
+@media (max-width: 1439px) { //from 1200px
+    .service {
+        &__grid {
+            grid-template-columns: 500px 1fr;
+        }
+        &__left {
+            padding: 100px 65px 90px;
+        }
+        &__right {
+            padding: 50px 90px 50px;
+        }
+    }
+}
+
+@media (max-width: 1199px) { //from 1024px
+    .service {
+        &__grid {
+            grid-template-columns: 460px 1fr;
+        }
+        &__left {
+            padding: 70px 50px 90px;
+        }
+        &__right {
+            padding: 50px 40px 50px;
+        }
+    }
+}

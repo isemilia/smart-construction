@@ -10,18 +10,28 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let advSlider = tns({
         container: '.advantages__slider',
-        items: 2.5,
         slideBy: 1,
+        items: 2.5,
         autoplay: false,
         controls: false,
         autoplayButtonOutput: false,
-        fixedWidth: 570,
+        // fixedWidth: 570,
         loop: false,
         mouseDrag: true,
         gutter: 40,
-        // center: true,
         nav: false,
-        swipeAngle: false
+        swipeAngle: false,
+        responsive: {
+            1420: {
+                fixedWidth: 570,
+            },
+            1200: {
+                fixedWidth: 530,
+            },
+            1024: {
+                fixedWidth: 480,
+            }
+        }
     });
 
     // let arSlider = tns({

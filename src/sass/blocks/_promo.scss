@@ -17,6 +17,11 @@
         grid-template-rows: 350px;
         column-gap: 20px;
     }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     .tns-outer {
         position: relative;
         .tns-nav {
@@ -67,6 +72,14 @@
             &:hover {
                 color: #48484A;
             }
+        }
+    }
+}
+
+@media (max-width: 1439px) { //from 1200px
+    .promo {
+        &__grid {
+            grid-template-columns: 1fr 350px;
         }
     }
 }

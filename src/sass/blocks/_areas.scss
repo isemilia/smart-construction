@@ -35,6 +35,7 @@
         max-width: 840px;
         overflow-x: scroll;
         overflow-y: hidden;
+        scroll-snap-type: x mandatory;
         &::-webkit-scrollbar {
             height: 6px;
         }
@@ -59,10 +60,11 @@
         }
     }
     &__card {
-        padding: 28px 45px 20px 24px;
+        padding: 28px 20px 20px 24px;
         width: 250px;
         border-radius: 20px;
         border: 1px solid #555555;
+        scroll-snap-align: start;
         &_gray {
             background: #b1b1b1af;
             border: none;
@@ -82,5 +84,29 @@
     }
     &__slider {
         
+    }
+}
+
+@media (max-width: 1439px) { //from 1200px
+    .areas {
+        &__cards {
+            max-width: 820px;
+        }
+        &__text {
+            width: 240px;
+            margin-right: 60px;
+        }
+    }
+}
+
+@media (max-width: 1199px) { //from 1024px
+    .areas {
+        &__cards {
+            max-width: 540px;
+        }
+        &__text {
+            width: 260px;
+            margin-right: 80px;
+        }
     }
 }

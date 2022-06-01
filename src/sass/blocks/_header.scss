@@ -12,6 +12,12 @@
     }
     &__logo {
         margin-right: 13px;
+        width: 256px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
     }
     &__city {
         font-size: 14px;
@@ -59,5 +65,20 @@
                 margin-right: 35px;
             }
         }
+    }
+}
+
+@media (max-width: 1199px) { //from 1024px
+    .header {
+        &__logo {
+            margin-right: 5px;
+            width: 190px;
+        }
+        &__social-link:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+    .menu__list li:not(:last-child) {
+        margin-right: 25px;
     }
 }

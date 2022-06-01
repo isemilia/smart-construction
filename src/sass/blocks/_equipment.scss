@@ -15,7 +15,7 @@
     &__grid {
         display: grid;
         grid-template-columns: repeat(2, 380px);
-        grid-auto-rows: 84px;
+        grid-auto-rows: minmax(84px, auto);
         gap: 2px;
     }
     &__item {
@@ -48,5 +48,20 @@
         display: flex;
         align-items: start;
         gap: 50px;
+    }
+}
+
+@media (max-width: 1199px) { //from 1024px
+    .equipment {
+        &__grid {
+            grid-template-columns: repeat(2,300px);
+        }
+        &__item {
+            &-text {
+                br {
+                    display: none;
+                }
+            }
+        }
     }
 }

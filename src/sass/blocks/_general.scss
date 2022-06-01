@@ -30,3 +30,14 @@
     margin: 0 auto;
 }
 
+@media (max-width: 1439px) { //from 1200px
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (max-width: 1199px) { //from 1024px
+    .container {
+        width: 94%; //980px
+    }
+}

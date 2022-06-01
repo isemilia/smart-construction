@@ -40,3 +40,12 @@
         }
     }
 }
+
+@media (max-width: 1199px) { //from 1024px
+    .banner {
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}

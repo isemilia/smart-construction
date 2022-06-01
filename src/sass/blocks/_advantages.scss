@@ -54,4 +54,24 @@
 
 body {
     counter-reset: item;
-  }
+}
+
+@media (max-width: 1439px) { //from 1200px
+    .advantages {
+        &__item {
+            width: 530px;
+        }
+    }
+}
+
+@media (max-width: 1199px) { //from 1024px
+    .advantages {
+        &__item {
+            width: 480px;
+        }
+        &__title {
+            font-size: 36px;
+            line-height: 45px;
+        }
+    }
+}
