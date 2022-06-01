@@ -23,4 +23,13 @@ window.addEventListener('DOMContentLoaded', () => {
         nav: false,
         swipeAngle: false
     });
+
+    // let arSlider = tns({
+    //     container: '#arSlider',
+    //     items: 1,
+    //     slideBy: 1,
+    //     autoplay: true,
+    //     controls: false,
+    //     autoplayButtonOutput: false
+    // });
 });
