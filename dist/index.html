@@ -21,30 +21,42 @@
                     </a>
                     <a href="#" class="header__city">Нур-Султан</a>
                 </div>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#">Сервис</a></li>
-                        <li class="menu__item"><a href="#">Продукция</a></li>
-                        <li class="menu__item"><a href="#">Efaflex</a></li>
-                        <li class="menu__item"><a href="#">Портфолио</a></li>
-                        <li class="menu__item"><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="header__social">
-                    <a href="#" class="header__social-link">
-                        <img src="icons/instagram.svg" alt="" class="">    
-                    </a>
-                    <a href="#" class="header__social-link">
-                        <img src="icons/152810.svg" alt="" class="">    
-                    </a>
-                    <a href="#" class="header__social-link">
-                        <img src="icons/59439.svg" alt="" class="">    
-                    </a>
-                    <a href="#" class="header__social-link">
-                        <img src="icons/whatsapp.svg" alt="" class="">    
-                    </a>
+                <div class="header__mobile" data-header-menu>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item" data-header-menu-item><a href="#">Сервис</a></li>
+                            <li class="menu__item" data-header-menu-item><a href="#">Продукция</a></li>
+                            <li class="menu__item" data-header-menu-item><a href="#">Efaflex</a></li>
+                            <li class="menu__item" data-header-menu-item><a href="#">Портфолио</a></li>
+                            <li class="menu__item" data-header-menu-item><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__social">
+                        <a href="#" class="header__social-link">
+                            <img src="icons/instagram.svg" alt="" class="">    
+                        </a>
+                        <a href="#" class="header__social-link">
+                            <img src="icons/152810.svg" alt="" class="">    
+                        </a>
+                        <a href="#" class="header__social-link">
+                            <img src="icons/59439.svg" alt="" class="">    
+                        </a>
+                        <a href="#" class="header__social-link">
+                            <img src="icons/whatsapp.svg" alt="" class="">    
+                        </a>
+                    </div>
                 </div>
-                <a href="#" class="btn header__btn">Оставить заявку</a>
+                <div class="header__mobile-2">
+                    <a href="#" class="btn header__btn">Оставить заявку</a>
+                    <div class="header__hamburger" data-hamburger>
+                        <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="25" height="3" rx="1.5" fill="black"/>
+                            <rect y="6" width="25" height="3" rx="1.5" fill="black"/>
+                            <rect y="6" width="25" height="3" rx="1.5" fill="black"/>
+                            <rect y="12" width="25" height="3" rx="1.5" fill="black"/>
+                        </svg>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -516,5 +528,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/sliders.js"></script>
     <script src="js/projects.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>
