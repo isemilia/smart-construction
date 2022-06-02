@@ -149,6 +149,7 @@
     .header {
         &__row {
             padding: 25px 0 18px;
+            align-items: flex-start;
         }
         &__wrapper {
             flex-direction: column;
