@@ -117,3 +117,18 @@
         }
     }
 }
+
+@media (max-width: 424px) { //from 375px
+    .promo {
+        &__card {
+            height: 330px;
+            &-title {
+                font-size: 28px;
+                line-height: 32px;
+            }
+            &-descr {
+                margin-top: 25px;
+            }
+        }
+    }
+}

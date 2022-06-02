@@ -40,6 +40,10 @@ window.addEventListener('DOMContentLoaded', () => {
             425: {
                 fixedWidth: 380,
                 gutter: 20
+            },
+            375: {
+                fixedWidth: 335,
+                gutter: 20
             }
         }
     });

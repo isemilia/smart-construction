@@ -130,3 +130,28 @@ body {
         }
     }
 }
+
+@media (max-width: 424px) { //from 375px
+    .advantages {
+        &__item {
+            padding: 24px;
+            padding-right: 15px;
+            width: 335px;
+            &-text {
+                font-size: 16px;
+                line-height: 29px;
+            }
+        }
+        &__text, &__title {
+            padding-left: 0;
+        }
+        &__title {
+            font-size: 26px;
+            line-height: 38px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+}

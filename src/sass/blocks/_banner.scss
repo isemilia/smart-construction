@@ -75,3 +75,12 @@
         }
     }
 }
+
+@media (max-width: 424px) { //from 375px
+    .banner {
+        &__title {
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+}
