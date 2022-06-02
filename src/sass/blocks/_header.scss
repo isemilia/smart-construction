@@ -181,3 +181,11 @@
         }
     }
 }
+
+@media (max-width: 424px) { //from 330px
+    .header {
+        &__logo {
+            width: 160px;
+        }
+    }
+}

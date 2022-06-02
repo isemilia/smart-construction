@@ -31,7 +31,7 @@
 }
 
 body {
-    min-width: 362px;
+    min-width: 325px;
 }
 
 @media (max-width: 1439px) { //from 1200px
@@ -81,5 +81,12 @@ body {
     .btn {
         padding: 8px 12px;
         font-size: 12px;
+    }
+}
+
+@media (max-width: 374px) { //from 320px
+    .btn {
+        padding: 8px 2px;
+        margin-right: 5px;
     }
 }

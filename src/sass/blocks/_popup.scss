@@ -74,3 +74,34 @@
         }
     }
 }
+
+@media (max-width: 767px) { //from 425px
+    .popup {
+        &__card {
+            width: 410px;
+        }
+    }
+}
+
+@media (max-width: 424px) { //from 375px
+    .popup {
+        &__card {
+            width: 365px;
+            padding: 25px;
+            padding-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 374px) { //from 320px
+    .popup {
+        &__card {
+            width: 320px;
+            padding: 20px;
+        }
+        &__close {
+            top: 14px;
+            right: 14px;
+        }
+    }
+}
