@@ -30,6 +30,9 @@ window.addEventListener('DOMContentLoaded', () => {
             },
             1024: {
                 fixedWidth: 480,
+            },
+            768: {
+                fixedWidth: 440,
             }
         }
     });

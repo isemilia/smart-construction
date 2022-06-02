@@ -84,3 +84,12 @@
         }
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .contacts {
+        &__grid {
+            grid-template-columns: 1fr 410px;
+            grid-template-rows: 520px;
+        }
+    }
+}

@@ -83,3 +83,11 @@
         }
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .promo {
+        &__path {
+            width: 360px;
+        }
+    }
+}

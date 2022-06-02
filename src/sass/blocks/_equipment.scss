@@ -65,3 +65,31 @@
         }
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .equipment {
+        padding: 20px 0 50px;
+        &__grid {
+            grid-template-columns: repeat(2,1fr);
+        }
+        &__item {
+            &-text {
+                br {
+                    display: none;
+                }
+            }
+        }
+        &__row {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        &__card {
+            padding: 30px 40px 20px 20px;
+            width: 100%;
+            min-height: auto;
+            &-descr {
+                margin-top: 10px;
+            }
+        }
+    }
+}

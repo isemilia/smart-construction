@@ -97,3 +97,26 @@
         }
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .product {
+        &__grid {
+            grid-auto-rows: 210px;
+        }
+        &__item {
+            &-title {
+                opacity: 1;
+                transform: translateY(0);
+                font-size: 26px;
+                line-height: 30px;
+                padding: 20px;
+            }
+        }
+        &__text {
+            margin-top: 40px;
+        }
+        &__models {
+            grid-template-columns: repeat(2,370px);
+        }
+    }
+}

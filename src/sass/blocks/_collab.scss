@@ -14,3 +14,10 @@
         line-height: 30px;
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .collab {
+        min-height: 400px;
+        padding: 90px 0 80px;
+    }
+}

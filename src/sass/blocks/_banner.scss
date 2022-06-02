@@ -49,3 +49,16 @@
         }
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .banner {
+        &__title {
+            font-size: 26px;
+            line-height: 34px;
+        }
+        &__row {
+            padding: 80px 50px;
+            border-radius: 25px;
+        }
+    }
+}

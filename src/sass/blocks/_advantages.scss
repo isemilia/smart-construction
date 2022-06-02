@@ -75,3 +75,30 @@ body {
         }
     }
 }
+
+@media (max-width: 1023px) { //from 768px
+    .advantages {
+        padding: 60px 0;
+        &__item {
+            width: 440px;
+            min-height: 230px;
+            &-text {
+                margin-top: 18px;
+                font-size: 17px;
+                line-height: 36px;
+            }
+        }
+        &__title {
+            font-size: 34px;
+            line-height: 43px;
+        }
+        &__text {
+            &_mxw590 {
+                margin-top: 16px;
+            }
+            &_mxw960 {
+                margin-top: 5px;
+            }
+        }
+    }
+}
