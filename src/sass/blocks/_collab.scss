@@ -21,3 +21,18 @@
         padding: 90px 0 80px;
     }
 }
+
+@media (max-width: 575px) { //from 425px
+    .collab {
+        min-height: auto;
+        padding: 50px 0 45px;
+        &__title {
+            font-size: 34px;
+            line-height: 38px;
+        }
+        &__text {
+            font-size: 18px;
+            margin-top: 18px;
+        }
+    }
+}

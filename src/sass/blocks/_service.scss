@@ -98,3 +98,17 @@
         }
     }
 }
+
+@media (max-width: 575px) { //from 425px
+    .service {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+        &__left {
+            padding: 50px 25px 60px;
+        }
+        &__right {
+            padding: 50px 25px 60px;
+        }
+    }
+}

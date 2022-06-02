@@ -143,3 +143,12 @@
         }
     }
 }
+
+@media (max-width: 575px) { //from 425px
+    .projects {
+        &__grid {
+            grid-template-columns: 1fr;
+            grid-auto-rows: minmax(280px,auto);
+        }
+    }
+}

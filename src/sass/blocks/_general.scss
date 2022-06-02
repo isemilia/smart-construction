@@ -51,3 +51,19 @@
         line-height: 38px;
     }
 }
+
+@media (max-width: 767px) { //from 576px
+    .container {
+        width: 550px; 
+    }
+}
+
+@media (max-width: 575px) { //from 425px
+    .container {
+        width: 400px; 
+    }
+    .title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}

@@ -120,3 +120,29 @@
         }
     }
 }
+
+@media (max-width: 767px) { //from 576px
+    .product {
+        &__models {
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+}
+
+@media (max-width: 575px) { //from 425px
+    .product {
+        &__grid {
+            margin-top: 35px;
+            grid-template-columns: 1fr;
+            grid-auto-rows: 220px;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 22px;
+            line-height: 28px;
+        }
+        &__models {
+            margin-top: 22px;
+        }
+    }
+}

@@ -91,3 +91,29 @@
         }
     }
 }
+
+@media (max-width: 767px) { //from 576px
+    .promo {
+        padding: 25px 0 35px;
+        &__path {
+            display: none;
+        }
+        &__grid {
+            grid-template-columns: 1fr 290px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) { //from 425px
+    .promo {
+        &__grid {
+            grid-template-columns: 100%;
+            grid-template-rows: auto auto;
+            row-gap: 15px;
+        }
+        &-second {
+            margin-top: 15px;
+        }
+    }
+}

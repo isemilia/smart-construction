@@ -143,3 +143,23 @@
         }
     }
 }
+
+@media (max-width: 767px) { //from 576px
+    .areas {
+        &__cards {
+            grid-template-columns: repeat(3,250px);
+            grid-auto-columns: 250px;
+            max-width: 530px;
+            column-gap: 25px;
+        }
+        &__card {
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 575px) { //from 425px
+    .areas {
+        padding: 35px 0 40px;
+    }
+}

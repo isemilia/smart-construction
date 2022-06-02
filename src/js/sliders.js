@@ -33,6 +33,13 @@ window.addEventListener('DOMContentLoaded', () => {
             },
             768: {
                 fixedWidth: 440,
+            },
+            576: {
+                fixedWidth: 420,
+            },
+            425: {
+                fixedWidth: 380,
+                gutter: 20
             }
         }
     });

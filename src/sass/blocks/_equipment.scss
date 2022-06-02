@@ -93,3 +93,11 @@
         }
     }
 }
+
+@media (max-width: 575px) { //from 425px
+    .equipment {
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}
