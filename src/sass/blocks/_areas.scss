@@ -37,6 +37,7 @@
         overflow-x: scroll;
         overflow-y: hidden;
         scroll-snap-type: x mandatory;
+        overscroll-behavior-inline: contain;
         &::-webkit-scrollbar {
             height: 6px;
         }
