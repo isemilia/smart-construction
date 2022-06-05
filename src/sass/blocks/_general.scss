@@ -30,6 +30,25 @@
     margin: 0 auto;
 }
 
+#preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: url('../img/loader.gif') center center / contain no-repeat;
+    background-color: #fff;
+    background-size: 15%;
+    z-index: 2000;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s;
+    &.hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
 body {
     min-width: 325px;
 }
