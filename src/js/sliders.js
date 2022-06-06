@@ -41,9 +41,14 @@ window.addEventListener('DOMContentLoaded', () => {
                 fixedWidth: 380,
                 gutter: 20
             },
-            360: {
+            375: {
                 fixedWidth: 335,
                 gutter: 20
+            },
+            320: {
+                fixedWidth: 310,
+                gutter: 20,
+                items: 1
             }
         }
     });
