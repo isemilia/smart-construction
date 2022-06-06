@@ -14,7 +14,7 @@
     &__grid {
         display: grid;
         grid-template-columns: 970px 350px;
-        grid-template-rows: 350px;
+        grid-template-rows: minmax(350px, auto);
         column-gap: 20px;
     }
     &__img {
@@ -45,8 +45,8 @@
         }
     }
     &__card {
-        height: 350px;
-        padding: 70px 20px 35px;
+        min-height: 350px;
+        padding: 60px 20px 20px;
         background: #C1DEEE;
         &-title {
             font-size: 30px;
@@ -59,6 +59,9 @@
             p {
                 font-family: 'SF UI Display', sans-serif;
                 font-weight: 400;
+            }
+            ul {
+                padding-left: 1rem;
             }
         }
         &-link {
@@ -121,7 +124,7 @@
 @media (max-width: 424px) { //from 375px
     .promo {
         &__card {
-            height: 330px;
+            min-height: 330px;
             &-title {
                 font-size: 28px;
                 line-height: 32px;

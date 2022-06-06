@@ -3,9 +3,10 @@ window.addEventListener('DOMContentLoaded', () => {
         container: '.promo__slider',
         items: 1,
         slideBy: 1,
-        autoplay: true,
+        autoplay: false,
         controls: false,
-        autoplayButtonOutput: false
+        autoplayButtonOutput: false,
+        autoHeight: true
     });
 
     let advSlider = tns({
