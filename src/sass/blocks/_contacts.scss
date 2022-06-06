@@ -3,7 +3,7 @@
     &__grid {
         display: grid;
         grid-template-columns: 1fr 850px;
-        grid-template-rows: 600px;
+        grid-template-rows: minmax(600px, auto);
         place-content: center;
     }
     &__group {
@@ -80,7 +80,7 @@
     .contacts {
         &__grid {
             grid-template-columns: 1fr 580px;
-            grid-template-rows: 540px;
+            grid-template-rows: minmax(540px, auto);
         }
         &__btn {
             margin-top: 35px;
@@ -92,7 +92,7 @@
     .contacts {
         &__grid {
             grid-template-columns: 1fr 410px;
-            grid-template-rows: 520px;
+            grid-template-rows: minmax(520px, auto);
         }
     }
 }

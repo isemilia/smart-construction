@@ -125,7 +125,11 @@
             align-items: center;
         }
         &__btn {
-            margin-right: 25px;
+            margin-right: 0;
+            margin-top: 15px;
+        }
+        &__social {
+            margin: 0 auto;
         }
     }
     .menu {
@@ -151,14 +155,11 @@
             padding: 25px 0 18px;
             align-items: flex-start;
         }
-        &__wrapper {
+        /* &__wrapper {
             flex-direction: column;
             align-items: flex-start;
             gap: 3px;
-        }
-        &__btn {
-            margin-right: 15px;
-        }
+        } */
     }
 }
 
@@ -171,14 +172,14 @@
             padding: 20px 0 15px;
             align-items: center;
         }
-        &__wrapper {
+        /* &__wrapper {
             position: relative;
         }
         &__city {
             position: absolute;
             bottom: -18px;
             font-size: 12px;
-        }
+        } */
     }
 }
 
