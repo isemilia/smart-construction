@@ -38,7 +38,7 @@
     left: 0;
     background: url('../img/loader-logo.JPG') center center / contain no-repeat;
     background-color: #fff;
-    background-size: 15%;
+    background-size: 12%;
     z-index: 2000;
     visibility: visible;
     opacity: 1;
@@ -79,6 +79,9 @@ body {
     .container {
         width: 550px; 
     }
+    #preloader {
+        background-size: 30%;
+    }
 }
 
 @media (max-width: 575px) { //from 425px
@@ -90,6 +93,9 @@ body {
         font-size: 28px;
         line-height: 34px;
     }
+    #preloader {
+        background-size: 40%;
+    }
 }
 
 @media (max-width: 424px) { //from 375px
@@ -100,6 +106,9 @@ body {
     .btn {
         padding: 8px 12px;
         font-size: 12px;
+    }
+    #preloader {
+        background-size: 45%;
     }
 }
 
