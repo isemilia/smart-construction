@@ -1,0 +1,45 @@
+.collab {
+    padding: 60px 0 80px;
+    &__title {
+        text-align: center;
+    }
+    &__subtitle {
+        max-width: 435px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #212529;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    &__form {
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        input:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        input[type=text], input[type=tel], input[type=submit] {
+            padding: 10px 24px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #212529;
+            border: 1px solid #212529;
+        }
+        input[type=text], input[type=tel] {
+            &::placeholder {
+                color: #D0D0D0;
+            }
+        }
+        input[type=submit] {
+            background: #FFF;
+            &:hover {
+                background: #EEEEEE;
+            }
+        }
+    }
+}
