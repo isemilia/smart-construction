@@ -19,6 +19,7 @@
     }
     &__card {
         position: relative;
+        overflow-y: auto;
         padding: 40px;
         width: 560px;
         max-width: 560px;
@@ -72,6 +73,11 @@
             font-weight: 600;
             text-align: left;
         }
+        .wpcf7-not-valid-tip {
+            position: absolute;
+            width: max-content;
+            bottom: -33px;
+        }
     }
 }
 
@@ -89,6 +95,11 @@
             width: 365px;
             padding: 25px;
             padding-top: 30px;
+        }
+        &__form {
+            input[type=text], input[type=tel] {
+                width: 100%;
+            }
         }
     }
 }

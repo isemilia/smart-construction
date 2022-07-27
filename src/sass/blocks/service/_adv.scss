@@ -1,0 +1,49 @@
+.adv {
+    padding: 35px 0 65px;
+    background: url('../img/service-adv.jpg') center center / cover no-repeat;
+    &__title {
+        color: #FFF;
+    }
+    &__list {
+        margin-top: 40px;
+        padding-left: 106px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        max-width: 510px;
+        min-height: 108px;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 30px 40px;
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+        &-text {
+            position: relative;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            color: #212529;
+            &::before {
+                position: absolute;
+                content: '';
+                left: -13px;
+                top: 13px;
+                border-radius: 100%;
+                width: 4px; 
+                height: 4px;
+                background: currentColor;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .adv {
+        padding: 60px 0 65px;
+        &__list {
+            padding-left: 0;
+        }
+    }
+}
