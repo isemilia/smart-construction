@@ -1,0 +1,13 @@
+.promo {
+    background: url('../img/gates-promo.jpg') center center / cover no-repeat;
+    padding: 95px 0;
+    min-height: 324px;
+    &__block {
+        display: inline-block;
+        padding: 12px;
+        max-width: 100%;
+        left: 100px;
+        top: 221px;
+        background: rgba(255, 255, 255, 0.8);
+    }
+}
