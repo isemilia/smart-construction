@@ -12,9 +12,13 @@ window.addEventListener('DOMContentLoaded', () => {
                 el: `#contentPag${sliderIdentifier}`,
             },
             breakpoints: {
-                1440: {
+                1024: {
                     slidesPerView: 1.5,
                     spaceBetween: 20,
+                },
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
                 },
             },
         });
