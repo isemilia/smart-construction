@@ -31,4 +31,12 @@ window.addEventListener('DOMContentLoaded', () => {
     allSliders.forEach(slider => buildSwiperSlider(slider));
     
     //singleEnd
+
+    //promoStart 
+    const swiper = new Swiper('#promoSlider', {
+        autoplay: true,
+        effect: 'fade',
+        loop: true,
+    });
+    //promoEnd
 });
