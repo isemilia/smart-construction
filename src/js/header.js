@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('[data-hamburger]');
     const menu = document.querySelector('[data-header-menu]');
-    const menuItems = Array.from(document.querySelectorAll('[data-header-menu-item]'))
+    const menuItems = Array.from(document.querySelectorAll('[data-header-menu-item]'));
 
     hamburger.addEventListener('click', () => {
         menu.classList.add('header__mobile_active');

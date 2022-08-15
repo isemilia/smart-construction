@@ -17,6 +17,7 @@
         text-decoration: none;
         text-align: center;
         transition: all .3s;
+        background: #1D1D1D;
         &:hover {
             background: rgb(245, 245, 245);
             color: #1D1D1D;
@@ -33,10 +34,10 @@
     }
     &__grid {
         margin: 0 auto;
-        margin-top: 90px;
+        margin-top: 80px;
         max-width: 1370px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 676px);
         grid-auto-rows: minmax(440px, auto);
         column-gap: 18px;
         row-gap: 80px;
@@ -139,6 +140,7 @@
     .projects {
         &__grid {
             max-width: 1170px;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }
