@@ -16,6 +16,7 @@
         }
     }
     &__subtitle {
+        padding: 10px 0;
         color: #212529;
     }
     &__block {
@@ -24,7 +25,8 @@
         align-items: center;
         align-content: space-between;
         padding: 10px;
-        max-width: 400px;
+        max-width: 670px;
+        width: max-content;
         min-height: 134px;
         left: 100px;
         top: 221px;
